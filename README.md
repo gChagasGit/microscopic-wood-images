@@ -1,4 +1,3 @@
-```markdown
 # Base de Dados com Imagens Microscópicas de Madeira
 
 Este repositório contém um conjunto de imagens microscópicas de madeira, com o objetivo de estudar os vasos da madeira, uma característica fundamental na anatomia da madeira. Essas imagens são provenientes do site [InsideWood](https://insidewood.lib.ncsu.edu/search?0), que oferece uma ampla coleção de dados sobre anatomia da madeira de diferentes espécies.
@@ -21,21 +20,18 @@ Se você usar ou fizer referência a este conjunto de dados em seu trabalho, por
 
 - Wheeler, E.A., P.E. Gasson, & P. Baas. 2020. Using The InsideWood Web Site: Potentials And Pitfalls. IAWA Journal 41(4): 412-462. [PDF](https://www.jstor.org/stable/10.5555/iawa.41.4.412)
 
-> **Nota**: Ao usar as imagens ou dados do InsideWood, sempre dê crédito ao fotógrafo e à instituição que forneceu as imagens. O uso comercial ou redistribuição sem permissão por escrito é estritamente proibido.
+> **Nota**: Ao usar as imagens ou dados do InsideWood, sempre dê crédito à instituição que forneceu as imagens. O uso comercial ou redistribuição sem permissão por escrito é estritamente proibido.
 
 ## Licença
 
-As imagens estão protegidas por direitos autorais de seus criadores. Para outros usos, como publicações em livros ou artigos, é necessário obter permissão da instituição que forneceu as imagens. 
-
-Você pode apoiar o InsideWood comprando o calendário de 2025 "Plants With A Past. Inside Fossil Wood", que apresenta diferentes localizações de madeiras fósseis.
+Livre
 
 ## Estrutura do Repositório
 
 O repositório contém os seguintes diretórios:
 
-- **Data/**: Contém os dados brutos das imagens microscópicas.
+- **Data/**: Imagens microscópicas (ou link para elas).
 - **Script/**: Contém os scripts utilizados para processar as imagens e preparar os dados para estudo.
-- **chromedriver-win64/**: Contém o driver do Selenium necessário para scraping de dados.
 - **selenium_env/**: Ambiente de execução do Selenium para automatizar o download das imagens.
 
 ## Como Usar
@@ -67,7 +63,7 @@ O repositório contém os seguintes diretórios:
 Para rodar os scripts que processam as imagens, basta executar:
 
 ```bash
-python script_name.py
+python script_dowload.py
 ```
 
 Esse comando irá baixar e processar as imagens conforme a lógica definida no código.
@@ -94,4 +90,3 @@ Gostaríamos de agradecer aos curadores do InsideWood e a todas as instituiçõe
 ---
 
 Se tiver alguma dúvida ou precisar de mais informações, sinta-se à vontade para abrir uma issue ou enviar um e-mail para o curador do InsideWood: elisabeth_wheeler@NCSU.edu.
-```
