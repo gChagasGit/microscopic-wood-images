@@ -53,7 +53,7 @@ O repositório contém os seguintes diretórios:
 2. Instale as dependências necessárias:
 
     ```bash
-    pip install -r requirements.txt
+    pip install -r dependencies.txt
     ```
 
 3. Baixe o Chrome WebDriver adequado para sua versão do Chrome. O WebDriver pode ser encontrado [aqui](https://sites.google.com/a/chromium.org/chromedriver/).
